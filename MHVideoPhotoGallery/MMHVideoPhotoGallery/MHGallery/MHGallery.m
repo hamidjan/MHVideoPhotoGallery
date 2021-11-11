@@ -66,7 +66,7 @@ UIView *MHStatusBar(void){
     id object = UIApplication.sharedApplication;
     UIView *statusBar;
     if ([object respondsToSelector:NSSelectorFromString(key)]) {
-        statusBar = [object valueForKey:key];
+//        statusBar = [object valueForKey:key];
     }
     return statusBar;
 }
